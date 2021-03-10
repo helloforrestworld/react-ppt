@@ -22,12 +22,6 @@
     "test": "craco test",
     "eject": "craco eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -44,7 +38,11 @@
     "@craco/craco": "^6.1.1",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9",
+    "craco-alias": "^2.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "postcss": "^7",
+    "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
